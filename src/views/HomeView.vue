@@ -95,7 +95,7 @@
   <!-- 开始使用区域 -->
   <div class="home-cta">
     <h2>开始使用Dockter</h2>
-    <p>只需简单几步配置，即可享受全自动的NAS管理体验</p>
+    <p>只需简单几步配置，即可享受全能NAS管理体验</p>
     <div class="cta-buttons">
       <a class="action-button primary enhanced"
         href="https://wiki.viplee.cc/dockter/newbie/install/#docker-compose">快速开始</a>
