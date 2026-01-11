@@ -115,8 +115,8 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-const banner = '/assets/banner.webp'
-const bannerMobile = '/assets/banner-mobile.png'
+const banner = '/assets/images/banner.png'
+const bannerMobile = '/assets/images/banner-mobile.png'
 const features = [
   {
     icon: '/assets/icons/导航页.png',
@@ -963,11 +963,11 @@ const alignSingleSection = (imageContainer, textContainer) => {
       font-size: 34px;
       font-weight: 600;
       margin-bottom: 16px;
-      color: transparent;
-      background-image: var(--sy-gradient-cyan-blue);
+      background-image: linear-gradient(90deg, #4988ee, #6b46d6);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
+      color: transparent;
       padding: 5px 0;
       line-height: 1.4;
     }
@@ -980,7 +980,7 @@ const alignSingleSection = (imageContainer, textContainer) => {
       font-size: 18px;
       font-weight: 600;
       margin-bottom: 6px;
-      color: #4a9eea;
+      color: #498ff0;
       display: block;
     }
 
@@ -1149,17 +1149,6 @@ const alignSingleSection = (imageContainer, textContainer) => {
       }
     }
   }
-}
-
-.section-title[data-text="与FastEmby完美配合"] {
-  margin-bottom: 30px;
-  background-image: linear-gradient(135deg, #4a8af4, #9254de);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  font-size: 34px;
-  position: relative;
 }
 
 .home-testimonials {
@@ -1518,7 +1507,7 @@ const alignSingleSection = (imageContainer, textContainer) => {
 
 .hero-content {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 15%;
   transform: translateY(-50%);
   text-align: left;
