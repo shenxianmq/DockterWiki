@@ -115,8 +115,8 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-const banner = '/assets/images/banner.png'
-const bannerMobile = '/assets/images/banner-mobile.png'
+const banner = '/assets/images/banner.webp'
+const bannerMobile = '/assets/images/banner-mobile.webp'
 const features = [
   {
     icon: '/assets/icons/导航页.png',
