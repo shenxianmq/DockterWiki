@@ -6,8 +6,8 @@
         <img :src="isMobile ? bannerMobile : banner" alt="banner" class="hero-banner">
         <div class="hero-content">
           <h1 class="hero-title">Dockter</h1>
-          <div class="hero-subtitle">高度智能化容器管理与导航控制中心</div>
-          <p class="hero-slogan">让容器管理更优雅、更清晰、更具生命力</p>
+          <div class="hero-subtitle">全能NAS管理工具</div>
+          <p class="hero-slogan">让NAS管理更简单</p>
         </div>
       </div>
       <div class="hero-actions" style="margin-top: 20px;">
@@ -20,7 +20,7 @@
     <div class="ui-padding">
       <!-- 核心功能介绍 -->
       <div class="home-intro">
-        <h2 class="section-title" data-text="高度智能化容器管理与导航控制中心">高度智能化容器管理与导航控制中心</h2>
+        <h2 class="section-title" data-text="全能NAS管理工具">全能NAS管理工具</h2>
         <p class="section-desc">Dockter 不只是一个 Docker 管理平台，而是一套现代化、智能化、可视化的容器管理解决方案。它让运维更优雅、管理更清晰、系统更具生命力。</p>
       </div>
 
