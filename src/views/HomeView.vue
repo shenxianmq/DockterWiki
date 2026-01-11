@@ -115,10 +115,8 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-const banner = '/assets/banner.jpg'
+const banner = '/assets/banner.webp'
 const bannerMobile = '/assets/banner-mobile.png'
-const fastembyVideo = '/videos/fastemby演示.mp4'
-const fastembyImage = '/assets/images/fastemby演示.png'
 const features = [
   {
     icon: '/assets/icons/导航页.png',
@@ -1165,7 +1163,7 @@ const alignSingleSection = (imageContainer, textContainer) => {
 }
 
 .home-testimonials {
-  padding: 60px 0;
+  padding: 60px;
 
   .testimonials-container {
     display: grid;
