@@ -17,7 +17,7 @@ title: 支持 Dockter 发展
 | 专业版 | ¥299 | 20 个      | 本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
 
 <div class="full-width-image">
-<img src="/assets/images/levels.png" alt="版本说明" class="level-image" style="min-width:100% !important;margin-left:-15px;">
+<img src="/assets/images/levels.png" alt="版本说明" class="level-image" style="min-width:100% !important;margin-left:-15px;box-shadow:none">
 </div>
 
 <div class="agent-info">
@@ -224,11 +224,16 @@ title: 支持 Dockter 发展
   font-size: 14px;
   line-height: 1.6;
 }
-
+.vp-doc table{
+  box-shadow:none;
+  border-radius: 0px;
+}
 .full-width-image {
   width: 100%;
   height: auto;
   display: block;
+  box-shadow:none;
+
 }
 
 </style>
