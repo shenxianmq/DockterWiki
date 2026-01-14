@@ -16,6 +16,10 @@ title: 支持 Dockter 发展
 | 高级版 | ¥219 | 10 个      | 本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
 | 专业版 | ¥299 | 20 个      | 本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
 
+<div class="full-width-image">
+<img src="/assets/images/levels.png" alt="版本说明" class="level-image" style="min-width:100% !important;margin-left:-15px;">
+</div>
+
 <div class="agent-info">
   <h3>🤖 什么是 Agent？</h3>
   <p>Agent 允许您添加并控制其他机器，通过 Agent 您可以：</p>
@@ -220,4 +224,11 @@ title: 支持 Dockter 发展
   font-size: 14px;
   line-height: 1.6;
 }
+
+.full-width-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 </style>
