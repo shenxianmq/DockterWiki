@@ -119,32 +119,32 @@ const banner = '/assets/images/banner.webp'
 const bannerMobile = '/assets/images/banner-mobile.webp'
 const features = [
   {
-    icon: '/assets/icons/导航页.png',
+    icon: '/assets/icons/导航页.webp',
     title: '导航页 · 可视化中枢工作台',
     details: '高度自由化、深度可定制的导航首页设计，支持自定义卡片与容器卡片，实时同步运行状态，支持PC与移动端分别配置背景图'
   },
   {
-    icon: '/assets/icons/Docker.png',
+    icon: '/assets/icons/Docker.webp',
     title: '容器管理 · 极致交互体验',
     details: '支持列表模式 & 卡片模式双视图，支持批量操作，容器状态实时呈现，运行状况一目了然，一键自动匹配容器图标'
   },
   {
-    icon: '/assets/icons/compose.png',
+    icon: '/assets/icons/compose.webp',
     title: 'Compose 管理 · 多项目协同编排',
     details: '图形化、结构化的应用编排中心，支持统一管理多个Compose目录，一键启动、构建、更新及批量操作'
   },
   {
-    icon: '/assets/icons/agent.png',
+    icon: '/assets/icons/agent.webp',
     title: 'Agent 管理 · 分布式节点控制',
     details: '远程节点接入能力，跨地域、多服务器统一管控，实时呈现CPU/内存/网络/磁盘数据，内置远程终端无需切SSH'
   },
   {
-    icon: '/assets/icons/archive.png',
+    icon: '/assets/icons/archive.webp',
     title: '文件管理 · 接近 PC 级体验',
     details: '专业级Web文件管理器，多标签页并行操作，文本文件点击即可编辑，图片点击即可预览，支持多选、上传、下载'
   },
   {
-    icon: '/assets/icons/bot.png',
+    icon: '/assets/icons/bot.webp',
     title: 'Bot 交互 · 智能助手系统',
     details: 'Bot控制系统让运维进入自动化时代，支持通过Bot指令控制容器启停、重启、管理维护，自动检测更新并推送通知'
   }
@@ -164,7 +164,7 @@ const showcases = [
         ]
       }
     ],
-    image: '/assets/images/placeholder.png'
+    image: '/assets/images/placeholder.webp'
   },
   {
     title: '容器管理 · 极致交互体验',
@@ -180,7 +180,7 @@ const showcases = [
         ]
       }
     ],
-    image: '/assets/images/container.png'
+    image: '/assets/images/container.webp'
   },
   {
     title: 'Compose 管理 · 多项目协同编排',
@@ -196,7 +196,7 @@ const showcases = [
         ]
       }
     ],
-    image: '/assets/images/compose.png'
+    image: '/assets/images/compose.webp'
   },
   {
     title: 'Agent 管理 · 分布式节点控制',
@@ -219,7 +219,7 @@ const showcases = [
         ]
       }
     ],
-    image: '/assets/images/agent.png'
+    image: '/assets/images/agent.webp'
   },
   {
     title: '文件管理 · 接近 PC 级体验',
@@ -236,7 +236,7 @@ const showcases = [
         ]
       }
     ],
-    image: '/assets/images/filebrowser.png'
+    image: '/assets/images/filebrowser.webp'
   },
   {
     title: 'Bot 交互 · 智能助手系统',
@@ -252,7 +252,7 @@ const showcases = [
         ]
       }
     ],
-    image: '/assets/images/bot.png'
+    image: '/assets/images/bot.webp'
   }
 ]
 const testimonials = [

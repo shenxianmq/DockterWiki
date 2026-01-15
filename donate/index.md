@@ -17,7 +17,7 @@ title: 支持 Dockter 发展
 | 专业版 | ¥299 | 20 个      | 本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
 
 <div class="full-width-image">
-<img src="/assets/images/levels.png" alt="版本说明" class="level-image" style="min-width:100% !important;margin-left:-15px;box-shadow:none">
+<img src="/assets/images/levels.webp" alt="版本说明" class="level-image" style="min-width:100% !important;margin-left:-15px;box-shadow:none">
 </div>
 
 <div class="agent-info">
@@ -51,7 +51,7 @@ title: 支持 Dockter 发展
     </div>
   </div>
   <div class="qrcode-container">
-    <img src="/wechat.png" alt="微信支付" class="qrcode">
+    <img src="/wechat.webp" alt="微信支付" class="qrcode">
     <p class="qrcode-label">微信支付</p>
   </div>
 </div>
