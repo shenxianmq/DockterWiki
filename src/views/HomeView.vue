@@ -675,7 +675,7 @@ const alignSingleSection = (imageContainer, textContainer) => {
   margin: 0 0 40px 0;
   padding: 10px 0;
   color: transparent;
-  background-image: var(--sy-gradient-cyan-blue);
+  background-image: linear-gradient(90deg, #2187f5 0%, #2187f5 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
