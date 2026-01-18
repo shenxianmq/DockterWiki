@@ -39,13 +39,13 @@ export default defineConfig({
       { text: "主页", link: "/" },
       {
         text: "Wiki",
-        items: [
-          // { text: "Symedia", link: "/archive/symedia/Symedia部署流程" },
-          {
-            text: "Dockter",
-            link: "https://wiki.viplee.cc/dockter/newbie/install/#docker-compose",
-          },
-        ],
+        link: "/archive/dockter",
+        // items: [
+        //   {
+        //     text: "Dockter",
+        //     link: "https://wiki.viplee.cc/dockter/newbie/install/#docker-compose",
+        //   },
+        // ],
       },
       { text: "捐赠", link: "/donate" },
     ],
