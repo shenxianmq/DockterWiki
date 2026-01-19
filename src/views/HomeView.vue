@@ -5,13 +5,12 @@
       <div class="hero-banner-container">
         <img :src="isMobile ? bannerMobile : banner" alt="banner" class="hero-banner">
         <div class="hero-content">
-          <h1 class="hero-title">Dockter</h1>
+          <h1 class="hero-title">DockTer</h1>
           <div class="hero-subtitle">全能NAS管理工具</div>
           <p class="hero-slogan">让NAS管理更简单</p>
         </div>
       </div>
       <div class="hero-actions" style="margin-top: 20px;">
-        <!-- <a class="action-button primary" href="/archive/symedia/Symedia部署流程">立即开始</a> -->
         <a class="action-button primary" href="https://wiki.viplee.cc">立即开始</a>
         <a class="action-button secondary" href="/donate">下载软件</a>
       </div>
@@ -21,7 +20,7 @@
       <!-- 核心功能介绍 -->
       <div class="home-intro">
         <h2 class="section-title" data-text="全能NAS管理工具">全能NAS管理工具</h2>
-        <p class="section-desc">Dockter 不只是一个 Docker 管理平台，而是一套现代化、智能化、可视化的容器管理解决方案。它让运维更优雅、管理更清晰、系统更具生命力。</p>
+        <p class="section-desc">DockTer 不只是一个 Docker 管理平台，而是一套现代化、智能化、可视化的容器管理解决方案。它让运维更优雅、管理更清晰、系统更具生命力。</p>
       </div>
 
       <!-- 特性部分 -->
@@ -98,7 +97,7 @@
     <p>只需简单几步配置，即可享受全能NAS管理体验</p>
     <div class="cta-buttons">
       <a class="action-button primary enhanced"
-        href="https://wiki.viplee.cc/dockter/newbie/install/#docker-compose">快速开始</a>
+        href="https://wiki.viplee.cc/DockTer/newbie/install/#docker-compose">快速开始</a>
     </div>
   </div>
   <!-- 版权信息 -->
