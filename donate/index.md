@@ -11,10 +11,10 @@ title: 支持 Dockter 发展
 
 | 版本   | 价格 | Agent 数量 | 功能说明                                           |
 | ------ | ---- | ---------- | -------------------------------------------------- |
-| 基础版 | ¥139 | 0 个       | 本地 Docker 管理、文件管理                         |
-| 标准版 | ¥189 | 5 个       | 本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
-| 高级版 | ¥229 | 10 个      | 本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
-| 专业版 | ¥299 | 20 个      | 本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
+| 基础版 | ¥139 | 0 个       | 导航页、本地 Docker 管理、文件管理                         |
+| 标准版 | ¥189 | 5 个       | 导航页、本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
+| 高级版 | ¥229 | 10 个      | 导航页、本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
+| 专业版 | ¥299 | 20 个      | 导航页、本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
 
 <div class="full-width-image">
 <img src="/assets/images/levels.webp" alt="版本说明" class="level-image" style="min-width:100% !important;margin-left:-15px;box-shadow:none">
