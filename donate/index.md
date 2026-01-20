@@ -9,7 +9,7 @@ title: 支持 Dockter 发展
 
 ## 版本说明
 
-| 版本   | 价格 | Agent 数量 | 功能说明                                           |
+| 版本   | 价格 | Agent | 功能说明                                           |
 | ------ | ---- | ---------- | -------------------------------------------------- |
 | 基础版 | ¥139 | 0 个       | 导航页、本地 Docker 管理、文件管理                         |
 | 标准版 | ¥189 | 5 个       | 导航页、本地与远程机器 Docker 管理、文件管理、SSH 命令执行 |
@@ -227,6 +227,11 @@ title: 支持 Dockter 发展
 .vp-doc table{
   box-shadow:none;
   border-radius: 0px;
+}
+.vp-doc table td:first-child,
+.vp-doc table th:first-child {
+  min-width: 80px;
+  white-space: nowrap;
 }
 .full-width-image {
   width: 100%;
