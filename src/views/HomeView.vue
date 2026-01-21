@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="hero-actions" style="margin-top: 20px;">
-        <a class="action-button primary" href="https://wiki.viplee.cc">立即开始</a>
+        <a class="action-button primary" href="/archive/dockter">立即开始</a>
         <a class="action-button secondary" href="/donate">下载软件</a>
       </div>
     </div>
