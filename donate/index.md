@@ -41,19 +41,29 @@ title: 支持 Dockter 发展
         <li>扫描右侧二维码支付对应金额</li>
         <li>付款时<b>备注您的邮箱地址和版本</b></li>
         <li>作者会将授权码发送至您提供的邮箱</li>
+        <li>若扫码支付显示无法支付，可过个10-20分钟支付，或换一个微信账号进行支付</li>
+        <li>如两个收款码都无法支付，请Tg联系作者 @qianqiumq 购买</li>
       </ol>
       <p class="tip">提示：若邮箱过长备注不全，可在付款后使用顾客留言功能</p>
     </div>
+    
 <div class="info-card purple-bg">
       <h3>📞 联系方式</h3>
       <p>Tg: <a href="https://t.me/qianqiumq" class="link">@qianqiumq</a></p>
       <p>有任何问题欢迎通过 Tg 联系作者</p>
     </div>
   </div>
+
   <div class="qrcode-container">
-    <img src="/wechat.webp" alt="微信支付" class="qrcode">
-    <img src="/wechat-2.png" alt="微信支付2" class="qrcode">
-    <p class="qrcode-label">微信支付</p>
+    <div class="qrcode-switcher">
+      <img :src="currentQrcodeSrc" :alt="currentQrcodeAlt" class="qrcode">
+      <p class="qrcode-label">{{ currentQrcodeLabel }}</p>
+      <button type="button" class="qrcode-toggle-btn" @click="toggleWechatQrcode">
+        {{ toggleButtonText }}
+      </button>
+      <p class="qrcode-alert">若提示无法支付，请点击上方按钮切换到备用收款码</p>
+    </div>
+
   </div>
 </div>
 
@@ -184,7 +194,12 @@ title: 支持 Dockter 发展
   align-items: center;
   text-align: center;
 }
-
+.qrcode-switcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
 .qrcode {
   max-width: 330px;
   border-radius: 10px;
@@ -196,6 +211,33 @@ title: 支持 Dockter 发展
   font-weight: bold;
   color: var(--primary-color);
 }
+
+.qrcode-toggle-btn {
+  border: none;
+  border-radius: 999px;
+  padding: 12px 22px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(73, 110, 206, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.qrcode-toggle-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(73, 110, 206, 0.32);
+}
+
+.qrcode-alert {
+  margin: 0;
+  color: var(--warning-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
 
 .warning-box {
   background: rgba(255, 59, 48, 0.1);
