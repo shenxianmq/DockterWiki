@@ -7,6 +7,32 @@ title: 支持 Dockter 发展
 <h2 class="gradient-title">成为 Dockter 的支持者</h2>
 <p class="subtitle">您的每一份支持都将帮助 Dockter 持续优化与创新，为 Docker 管理提供更强大的功能体验</p>
 
+<script setup>
+import { computed, ref } from 'vue'
+
+const showingBackupQrcode = ref(false)
+
+const currentQrcodeSrc = computed(() =>
+  showingBackupQrcode.value ? '/wechat-2.png' : '/wechat.png'
+)
+
+const currentQrcodeAlt = computed(() =>
+  showingBackupQrcode.value ? '微信支付2' : '微信支付'
+)
+
+const currentQrcodeLabel = computed(() =>
+  showingBackupQrcode.value ? '微信支付2' : '微信支付'
+)
+
+const toggleButtonText = computed(() =>
+  showingBackupQrcode.value ? '切换回默认微信收款码' : '切换到备用微信收款码'
+)
+
+function toggleWechatQrcode() {
+  showingBackupQrcode.value = !showingBackupQrcode.value
+}
+</script>
+
 ## 版本说明
 
 | 版本   | 价格 | Agent | 功能说明                                                   |
