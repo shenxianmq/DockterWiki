@@ -41,6 +41,9 @@ jobs:
       - name: Generate site
         run: pnpm docs:build
       - name: Deploy to server
+        id: server_copy
+        # 服务器为额外副本；认证失败时仍应发布 Pages 主站。
+        continue-on-error: true
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -49,6 +52,9 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           source: "./.vitepress/dist/*"
           target: ${{ secrets.SSH_TARGET_PATH }}
+      - name: Report server mirror failure
+        if: steps.server_copy.outcome == 'failure'
+        run: echo "::warning::服务器副本 SSH 部署失败，请检查 SSH 凭据；继续发布 GitHub Pages 主站。"
       - name: Upload Pages artifacts
         id: deployment
         uses: actions/upload-pages-artifact@v3
